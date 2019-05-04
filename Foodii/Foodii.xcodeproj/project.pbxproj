@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CBF0AEDF227E2052004DFBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AEDE227E2052004DFBF0 /* AppDelegate.swift */; };
-		CBF0AEE1227E2052004DFBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AEE0227E2052004DFBF0 /* ViewController.swift */; };
 		CBF0AEE4227E2052004DFBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0AEE2227E2052004DFBF0 /* Main.storyboard */; };
 		CBF0AEE6227E2054004DFBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF0AEE5227E2054004DFBF0 /* Assets.xcassets */; };
 		CBF0AEE9227E2054004DFBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0AEE7227E2054004DFBF0 /* LaunchScreen.storyboard */; };
 		CBF0AEF4227E2054004DFBF0 /* FoodiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AEF3227E2054004DFBF0 /* FoodiiTests.swift */; };
 		CBF0AEFF227E2054004DFBF0 /* FoodiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AEFE227E2054004DFBF0 /* FoodiiUITests.swift */; };
+		CBF0AF11227E2308004DFBF0 /* LikedFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AF10227E2308004DFBF0 /* LikedFoodTableViewController.swift */; };
+		CBF0AF13227E2339004DFBF0 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AF12227E2339004DFBF0 /* SearchTableViewController.swift */; };
+		CBF0AF15227E234E004DFBF0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AF14227E234E004DFBF0 /* LogInViewController.swift */; };
+		CBF0AF17227E236F004DFBF0 /* DetailFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AF16227E236F004DFBF0 /* DetailFoodViewController.swift */; };
+		CBF0AF19227E2391004DFBF0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AF18227E2391004DFBF0 /* User.swift */; };
+		CBF0AF1B227E2923004DFBF0 /* foodAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AF1A227E2923004DFBF0 /* foodAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		CBF0AEDB227E2052004DFBF0 /* Foodii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0AEDE227E2052004DFBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBF0AEE0227E2052004DFBF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBF0AEE3227E2052004DFBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBF0AEE5227E2054004DFBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF0AEE8227E2054004DFBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		CBF0AEFA227E2054004DFBF0 /* FoodiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0AEFE227E2054004DFBF0 /* FoodiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodiiUITests.swift; sourceTree = "<group>"; };
 		CBF0AF00227E2054004DFBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF0AF10227E2308004DFBF0 /* LikedFoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedFoodTableViewController.swift; sourceTree = "<group>"; };
+		CBF0AF12227E2339004DFBF0 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		CBF0AF14227E234E004DFBF0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CBF0AF16227E236F004DFBF0 /* DetailFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFoodViewController.swift; sourceTree = "<group>"; };
+		CBF0AF18227E2391004DFBF0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CBF0AF1A227E2923004DFBF0 /* foodAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +107,11 @@
 		CBF0AEDD227E2052004DFBF0 /* Foodii */ = {
 			isa = PBXGroup;
 			children = (
-				CBF0AEDE227E2052004DFBF0 /* AppDelegate.swift */,
-				CBF0AEE0227E2052004DFBF0 /* ViewController.swift */,
-				CBF0AEE2227E2052004DFBF0 /* Main.storyboard */,
+				CBF0AF1F227E29B7004DFBF0 /* ViewControllers */,
+				CBF0AF1C227E2961004DFBF0 /* Model */,
+				CBF0AF1E227E2996004DFBF0 /* Controller */,
+				CBF0AF1D227E298F004DFBF0 /* View */,
 				CBF0AEE5227E2054004DFBF0 /* Assets.xcassets */,
-				CBF0AEE7227E2054004DFBF0 /* LaunchScreen.storyboard */,
 				CBF0AEEA227E2054004DFBF0 /* Info.plist */,
 			);
 			path = Foodii;
@@ -123,6 +133,43 @@
 				CBF0AF00227E2054004DFBF0 /* Info.plist */,
 			);
 			path = FoodiiUITests;
+			sourceTree = "<group>";
+		};
+		CBF0AF1C227E2961004DFBF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0AF18227E2391004DFBF0 /* User.swift */,
+				CBF0AF1A227E2923004DFBF0 /* foodAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBF0AF1D227E298F004DFBF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0AEE2227E2052004DFBF0 /* Main.storyboard */,
+				CBF0AEE7227E2054004DFBF0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBF0AF1E227E2996004DFBF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0AEDE227E2052004DFBF0 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBF0AF1F227E29B7004DFBF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0AF10227E2308004DFBF0 /* LikedFoodTableViewController.swift */,
+				CBF0AF16227E236F004DFBF0 /* DetailFoodViewController.swift */,
+				CBF0AF14227E234E004DFBF0 /* LogInViewController.swift */,
+				CBF0AF12227E2339004DFBF0 /* SearchTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF0AEE1227E2052004DFBF0 /* ViewController.swift in Sources */,
+				CBF0AF17227E236F004DFBF0 /* DetailFoodViewController.swift in Sources */,
+				CBF0AF11227E2308004DFBF0 /* LikedFoodTableViewController.swift in Sources */,
+				CBF0AF19227E2391004DFBF0 /* User.swift in Sources */,
+				CBF0AF15227E234E004DFBF0 /* LogInViewController.swift in Sources */,
+				CBF0AF13227E2339004DFBF0 /* SearchTableViewController.swift in Sources */,
+				CBF0AF1B227E2923004DFBF0 /* foodAPI.swift in Sources */,
 				CBF0AEDF227E2052004DFBF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

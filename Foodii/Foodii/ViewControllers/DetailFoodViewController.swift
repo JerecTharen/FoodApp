@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailFoodViewController.swift
 //  Foodii
 //
 //  Created by Tyler Donohue on 5/4/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailFoodViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
