@@ -1,0 +1,14 @@
+/home/jerec/Projects/FoodApp/foodApp/bin/Debug/netcoreapp2.2/foodApp.deps.json
+/home/jerec/Projects/FoodApp/foodApp/bin/Debug/netcoreapp2.2/foodApp.runtimeconfig.json
+/home/jerec/Projects/FoodApp/foodApp/bin/Debug/netcoreapp2.2/foodApp.runtimeconfig.dev.json
+/home/jerec/Projects/FoodApp/foodApp/bin/Debug/netcoreapp2.2/foodApp.dll
+/home/jerec/Projects/FoodApp/foodApp/bin/Debug/netcoreapp2.2/foodApp.pdb
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.csprojAssemblyReference.cache
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.csproj.CoreCompileInputs.cache
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.RazorAssemblyInfo.cache
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.RazorAssemblyInfo.cs
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.AssemblyInfoInputs.cache
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.AssemblyInfo.cs
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.RazorTargetAssemblyInfo.cache
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.dll
+/home/jerec/Projects/FoodApp/foodApp/obj/Debug/netcoreapp2.2/foodApp.pdb
