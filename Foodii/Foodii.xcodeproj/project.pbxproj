@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBC8AF0F227E34FB000D3ECE /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8AF0E227E34FB000D3ECE /* UsersAPI.swift */; };
 		CBF0AEDF227E2052004DFBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0AEDE227E2052004DFBF0 /* AppDelegate.swift */; };
 		CBF0AEE4227E2052004DFBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0AEE2227E2052004DFBF0 /* Main.storyboard */; };
 		CBF0AEE6227E2054004DFBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF0AEE5227E2054004DFBF0 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBC8AF0E227E34FB000D3ECE /* UsersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPI.swift; sourceTree = "<group>"; };
 		CBF0AEDB227E2052004DFBF0 /* Foodii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0AEDE227E2052004DFBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF0AEE3227E2052004DFBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				CBF0AF18227E2391004DFBF0 /* User.swift */,
 				CBF0AF1A227E2923004DFBF0 /* foodAPI.swift */,
+				CBC8AF0E227E34FB000D3ECE /* UsersAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				CBF0AF19227E2391004DFBF0 /* User.swift in Sources */,
 				CBF0AF15227E234E004DFBF0 /* LogInViewController.swift in Sources */,
 				CBF0AF13227E2339004DFBF0 /* SearchTableViewController.swift in Sources */,
+				CBC8AF0F227E34FB000D3ECE /* UsersAPI.swift in Sources */,
 				CBF0AF1B227E2923004DFBF0 /* foodAPI.swift in Sources */,
 				CBF0AEDF227E2052004DFBF0 /* AppDelegate.swift in Sources */,
 			);

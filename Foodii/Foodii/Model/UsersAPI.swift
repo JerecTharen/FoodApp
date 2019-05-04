@@ -1,5 +1,5 @@
 //
-//  foodAPI.swift
+//  UsersAPI.swift
 //  Foodii
 //
 //  Created by Tyler Donohue on 5/4/19.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-class FoodAPI {
+class UsersAPI {
     
-    static let sharedController = FoodAPI()
-    let baseURL = "put in how to get eh recipis from the big bois api"
+    static let sharedUsersController = UsersAPI()
+    let baseURL = "this is jacob API"
     
 }
